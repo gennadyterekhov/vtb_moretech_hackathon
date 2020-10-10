@@ -1,0 +1,15 @@
+POST http://localhost:8000/login
+Content-Type: application/x-www-form-urlencoded
+
+{
+    "data": "value"
+}
+
+###
+#Content-Type: application/json
+
+GET http://localhost:8000/login
+
+{
+    "data": "value"
+}
